@@ -54,3 +54,17 @@ p {
     background-color: #F2D1B3; 
     color: #011C40;
 }
+
+@media (max-width: 700px) {
+    body {
+    display: flex;
+    flex-direction: column;
+    background-color: #011C40 ;
+    color: #F2D1B3;
+    }
+    .botoes-cabecalho{
+    width: 100%;
+    padding: 10px;
+    }
+}
+    
